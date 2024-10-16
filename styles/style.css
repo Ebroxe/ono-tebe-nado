@@ -5,12 +5,12 @@
     justify-items: center;
     align-items: center;
     padding: 95px 50px 96px;
+    font-size: 18px;
 }
 
 .header__menu {
     display: flex;
     justify-self: start;
-    font-size: 18px;
     min-width: 342px;
 }
 
@@ -23,7 +23,7 @@
 
 .header__link {
     text-decoration: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .header__link__active {
@@ -45,7 +45,6 @@
 
 .address {
     font-style: normal;
-    font-size: 18px;
     line-height: 135%;
     max-width: 237px;
     justify-self: flex-end;
@@ -53,7 +52,7 @@
 
 .address__link {
     text-decoration: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .cover {
@@ -128,6 +127,7 @@
 }
 
 .bet-button {
+    Font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 1.1;
@@ -136,12 +136,13 @@
     color: #fff;
     width:256px;
     height: 51px;
-    border: 2px solid #fff;
+    border: 2px solid currentColor;
     background-color: transparent;
 }
 
 .lots {
     padding: 182px 24px 0;
+    font-size: 20px;
 }
 
 .lots__heading {
@@ -159,6 +160,7 @@
     justify-content: space-between;
     list-style: none;
     flex-grow: 1;
+    flex-wrap:wrap
 
 }
 
@@ -198,7 +200,6 @@
 
 .card__text {
     position: relative;
-    font-size: 20px;
     line-height: 1.2;
 }
 
@@ -217,10 +218,9 @@
 .lots__look-more-link {
     display: block;
     max-width: fit-content;
-    font-size: 20px;
     line-height: 1.2;
     text-decoration: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     margin-top: 30px;
     margin-left: 40px;
 }
@@ -278,6 +278,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 50px 88px;
+    font-size: 18px;
 }
 
 
@@ -290,7 +291,6 @@
 }
 
 .footer__menu-list-item {
-    font-size: 18px;
     line-height: 1.13;
 }
 
@@ -298,7 +298,7 @@
     display: block;
     max-width: fit-content;
     text-decoration: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .footer__menu-link_active {
